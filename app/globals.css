@@ -11,6 +11,8 @@
   /* Olive Green from profile buttons */
   --brand-cream: #FFF9F0;
   /* Light Cream for Hero background */
+  --brand-gold: #D4AF37;
+  /* Goldenrod for hover states */
 
   /* Text */
   --text-primary: #1F1F1F;
@@ -26,6 +28,7 @@
   --color-brand-red: var(--brand-red);
   --color-brand-olive: var(--brand-olive);
   --color-brand-cream: var(--brand-cream);
+  --color-brand-gold: var(--brand-gold);
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
 }

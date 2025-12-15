@@ -16,13 +16,13 @@ export default function Header() {
 
                 {/* Navigation */}
                 <nav className="hidden md:flex items-center gap-8 text-text-secondary font-medium">
-                    <Link href="#" className="hover:text-brand-red transition-colors">
+                    <Link href="#" className="hover:text-brand-gold transition-colors">
                         Find Teachers
                     </Link>
-                    <Link href="#" className="hover:text-brand-red transition-colors">
+                    <Link href="#" className="hover:text-brand-gold transition-colors">
                         How It Works
                     </Link>
-                    <Link href="#" className="hover:text-brand-red transition-colors">
+                    <Link href="#" className="hover:text-brand-gold transition-colors">
                         Login/Signup
                     </Link>
                 </nav>

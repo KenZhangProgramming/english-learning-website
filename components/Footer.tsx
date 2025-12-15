@@ -21,8 +21,8 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-text-primary mb-6">Platform</h3>
                         <ul className="space-y-4 text-text-secondary">
-                            <li><Link href="#" className="hover:text-brand-red transition-colors">Find Teachers</Link></li>
-                            <li><Link href="#" className="hover:text-brand-red transition-colors">How It Works</Link></li>
+                            <li><Link href="#" className="hover:text-brand-gold transition-colors">Find Teachers</Link></li>
+                            <li><Link href="#" className="hover:text-brand-gold transition-colors">How It Works</Link></li>
                             {/* Pricing removed */}
                         </ul>
                     </div>
@@ -30,8 +30,8 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-text-primary mb-6">Company</h3>
                         <ul className="space-y-4 text-text-secondary">
-                            <li><Link href="#" className="hover:text-brand-red transition-colors">About Us</Link></li>
-                            <li><Link href="#" className="hover:text-brand-red transition-colors">Careers</Link></li>
+                            <li><Link href="#" className="hover:text-brand-gold transition-colors">About Us</Link></li>
+                            <li><Link href="#" className="hover:text-brand-gold transition-colors">Careers</Link></li>
                             {/* Blog removed */}
                         </ul>
                     </div>
@@ -39,8 +39,8 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-text-primary mb-6">Support</h3>
                         <ul className="space-y-4 text-text-secondary">
-                            <li><Link href="#" className="hover:text-brand-red transition-colors">Help Center</Link></li>
-                            <li><Link href="#" className="hover:text-brand-red transition-colors">Contact Us</Link></li>
+                            <li><Link href="#" className="hover:text-brand-gold transition-colors">Help Center</Link></li>
+                            <li><Link href="#" className="hover:text-brand-gold transition-colors">Contact Us</Link></li>
                             {/* Terms of Service removed */}
                         </ul>
                     </div>
@@ -49,8 +49,8 @@ export default function Footer() {
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-text-secondary">
                     <p>&copy; {new Date().getFullYear()} Canado English. All rights reserved.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
-                        <Link href="#" className="hover:text-brand-red">Privacy Policy</Link>
-                        <Link href="#" className="hover:text-brand-red">Cookie Policy</Link>
+                        <Link href="#" className="hover:text-brand-gold">Privacy Policy</Link>
+                        <Link href="#" className="hover:text-brand-gold">Cookie Policy</Link>
                     </div>
                 </div>
             </div>
