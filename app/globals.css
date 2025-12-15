@@ -2,9 +2,19 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-  --brand-red: #D80621;
-  --brand-dark: #37474f;
+  --foreground: #2d2d2d;
+
+  /* Brand Colors */
+  --brand-red: #D64545;
+  /* Warm Red from logo/button */
+  --brand-olive: #A3A868;
+  /* Olive Green from profile buttons */
+  --brand-cream: #FFF9F0;
+  /* Light Cream for Hero background */
+
+  /* Text */
+  --text-primary: #1F1F1F;
+  --text-secondary: #555555;
 }
 
 @theme inline {
@@ -12,14 +22,21 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
   --color-brand-red: var(--brand-red);
-  --color-brand-dark: var(--brand-dark);
+  --color-brand-olive: var(--brand-olive);
+  --color-brand-cream: var(--brand-cream);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Optional: Slightly darker cream or soft charcoal for dark mode if desired, 
+       but keeping it light-themed by default for now to match the specific design request.
+       We can invert if the user specifically asks for a dark version of this design. */
+    --background: #ffffff;
+    --foreground: #2d2d2d;
   }
 }
 
