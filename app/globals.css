@@ -9,6 +9,8 @@
   /* Warm Red from logo/button */
   --brand-olive: #A3A868;
   /* Olive Green from profile buttons */
+  --brand-olive-light: #E8EAC8;
+  /* Lighter Creamy Olive */
   --brand-cream: #FFF9F0;
   /* Light Cream for Hero background */
   --brand-gold: #D4AF37;
@@ -27,6 +29,7 @@
 
   --color-brand-red: var(--brand-red);
   --color-brand-olive: var(--brand-olive);
+  --color-brand-olive-light: var(--brand-olive-light);
   --color-brand-cream: var(--brand-cream);
   --color-brand-gold: var(--brand-gold);
   --color-text-primary: var(--text-primary);

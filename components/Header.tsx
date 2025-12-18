@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="w-full bg-brand-cream py-6">
+        <header className="sticky top-0 z-50 shadow-sm w-full bg-brand-cream py-6">
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
@@ -16,13 +16,13 @@ export default function Header() {
 
                 {/* Navigation */}
                 <nav className="hidden md:flex items-center gap-8 text-text-secondary font-medium">
-                    <Link href="#" className="hover:text-brand-gold transition-colors">
+                    <Link href="/#about" className="hover:text-brand-gold transition-colors">
+                        About
+                    </Link>
+                    <Link href="/#teachers" className="hover:text-brand-gold transition-colors">
                         Find Teachers
                     </Link>
-                    <Link href="#" className="hover:text-brand-gold transition-colors">
-                        How It Works
-                    </Link>
-                    <Link href="#" className="hover:text-brand-gold transition-colors">
+                    <Link href="/#login" className="hover:text-brand-gold transition-colors">
                         Login/Signup
                     </Link>
                 </nav>
