@@ -22,7 +22,7 @@ export default function Header() {
                     <Link href="/#teachers" className="hover:text-brand-gold transition-colors">
                         Find Teachers
                     </Link>
-                    <Link href="/#login" className="hover:text-brand-gold transition-colors">
+                    <Link href="/signup" className="hover:text-brand-gold transition-colors">
                         Login/Signup
                     </Link>
                 </nav>
