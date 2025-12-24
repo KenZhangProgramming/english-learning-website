@@ -46,14 +46,14 @@ export default function SignupPage() {
                     {/* Teacher Card */}
                     <Link
                         href="/signup/teacher"
-                        className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-brand-red overflow-hidden"
+                        className="group relative bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-brand-gold overflow-hidden"
                     >
                         <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-                            <Users size={120} className="text-brand-red" />
+                            <Users size={120} className="text-brand-gold" />
                         </div>
 
                         <div className="relative z-10 flex flex-col h-full">
-                            <div className="w-16 h-16 bg-[#FEE2E2] rounded-2xl flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-16 h-16 bg-brand-gold-light rounded-2xl flex items-center justify-center text-brand-gold mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <User size={32} />
                             </div>
 
@@ -62,7 +62,7 @@ export default function SignupPage() {
                                 Share your expertise, set your own schedule, and reach students globally. Start your teaching journey today.
                             </p>
 
-                            <div className="flex items-center text-brand-red font-bold group-hover:gap-2 transition-all">
+                            <div className="flex items-center text-brand-gold font-bold group-hover:gap-2 transition-all">
                                 <span>Sign up as a Teacher</span>
                                 <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
                             </div>

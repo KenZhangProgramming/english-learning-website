@@ -9,7 +9,7 @@ export default function StudentSignupPage() {
             <div className="max-w-md mx-auto bg-white rounded-3xl shadow-xl overflow-hidden p-8">
                 <Link href="/signup" className="inline-flex items-center text-brand-olive font-medium hover:underline mb-8">
                     <ArrowLeft size={16} className="mr-2" />
-                    Back to choices
+                    Back to Signup
                 </Link>
 
                 <div className="flex items-center gap-4 mb-8">

@@ -15,6 +15,7 @@
   /* Light Cream for Hero background */
   --brand-gold: #D4AF37;
   /* Goldenrod for hover states */
+  --brand-gold-light: #faeaca; /* Lighter Goldenrod */
 
   /* Text */
   --text-primary: #1F1F1F;
@@ -32,6 +33,7 @@
   --color-brand-olive-light: var(--brand-olive-light);
   --color-brand-cream: var(--brand-cream);
   --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-light: var(--brand-gold-light);
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
 }
