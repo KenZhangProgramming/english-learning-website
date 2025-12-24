@@ -120,7 +120,7 @@ model Teacher {
   country String
   email   String
 
-  specializations TeacherSpecialization[]
+  specialization String
 
   totalEarnings Decimal @default(0) @db.Decimal(10, 2)
   classesBooked Int     @default(0)
@@ -133,17 +133,6 @@ model Teacher {
 
   @@index([userId])
   @@map("teachers")
-}
-
-model TeacherSpecialization {
-  id        String  @id @default(cuid())
-  teacherId String
-  teacher   Teacher @relation(fields: [teacherId], references: [id], onDelete: Cascade)
-
-  specialization String
-
-  @@unique([teacherId, specialization])
-  @@map("teacher_specializations")
 }
 
 model AvailableSlot {
